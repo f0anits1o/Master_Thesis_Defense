@@ -14,15 +14,17 @@ def convertJD(D,M,Y):
     if Question1=='Julian Calendar':
         B = 0
         JD = int(365.25*(Y + 4716)) + int(30.6001*(M +1)) + D + B -1524.5
-        
+        print('The Julian Date of the 07 september 2023 at 09h0000 UT1 is: ', JD)
+    
     elif Question1=='Gregorian Calendar':
         B = 2- A + int(A/4)
         JD = int(365.25*(Y + 4716)) + int(30.6001*(M +1)) + D + B -1524.5
-        
+        print('The Julian Date of the 07 september 2023 at 09h0000 UT1 is: ', JD)
+   
     else:
         print('Please :) write "Julian Calendar" or "Gregorian Calendar" ')
+    
         
-    print('The Julian Date of the 07 september 2023 at 09h0000 UT1 is: ', JD)    
     
 convertJD(7.875, 9, 2023)
 
