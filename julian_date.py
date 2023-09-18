@@ -24,5 +24,5 @@ def convertJD(D,M,Y):
         
     print('The Julian Date of the 07 september 2023 at 09h0000 UT1 is: ', JD)    
     
-convertJD(7.825, 9, 2023)
+convertJD(7.875, 9, 2023)
 
